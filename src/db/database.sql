@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS contacts_DAW;
+CREATE DATABASE contacts_DAW;
+USE contacts_DAW;
+
+CREATE TABLE contacts (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100),
+    email VARCHAR(120),
+    phone INT UNSIGNED
+)
